@@ -1,0 +1,103 @@
+body {
+    background-color: #f5d1e3;
+    font-family: 'Times New Roman';
+  }
+  
+  #bar {
+    text-align: center;
+    color: white;
+    background-color: #e45383;
+    margin-top: 10px;
+    padding: 5px;
+    font-family:'verdana';
+    clear: both;
+  }
+  
+  #navigation {
+    background-color: rgb(210, 36, 71);
+    text-align: center;
+  }
+  
+  #navigation li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #navigation li:hover {
+    background-color: #f5d1e3;
+  }
+  
+  #navigation ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content-box {
+    float: left;
+    margin: 0;
+    width: 60%;
+    background-color: rgb(237, 230, 234);
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    height: 30%; 
+    margin-top: 20px;
+  }
+  
+  #rules {
+    background-color: rgb(104, 8, 29);
+    color:#f5d1e3;
+    float: right;
+    width: 35%;
+    height: 50%;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size:large;
+  }
+
+  #rules:hover {
+    background-color: rgb(229, 15, 15);
+  }
+  
+  .main-area {
+    border: 2px solid rgb(10, 9, 9);
+    width: 98%;
+    height: 100%;
+    margin-bottom: 5px;
+    padding: 10px;    
+  }
+
+  #name {
+    width: 20%;
+    }
+
+  #name:focus {
+    width: 60%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size:large;
+  }
+
+  a:hover{
+    color:rgb(210, 36, 71)
+  }
+
+  input[type="submit"] {
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: #e45383;
+  }
+
+  input[type="submit"]:hover {
+    background-color: pink;
+  }
+
+
+  
