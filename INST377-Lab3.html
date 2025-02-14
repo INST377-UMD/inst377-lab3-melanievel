@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>INST377 - Lab 3</title>
+    <link rel="stylesheet" href="INST377-Lab3.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header id="bar">
+      <h1>Lab 3 - Rock, Paper, Scissors</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav id="navigation">
+      <ul>
+        <li><a href=https://www.wikihow.com/Play-Rock,-Paper,-Scissors target="_blank">Game Guide</a></li>
+        <li><a href=https://unsplash.com/s/photos/puppy target="_blank">Puppies!</a></li>
+        <li><a href=https://ischool.umd.edu/academics/bachelors-programs/bachelor-of-science-in-information-science-college-park/ target="_blank">Info Sci</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main text Area -->
+    <div class="main-area">
+      <div class="content-box">
+        <form>
+          <h1>Please choose one of the following options:</h1>
+          <div class="textInput">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required />
+            <br />
+          </div>
+          <label for="option">Choose one: </label>
+          <select id="option" name="option">
+            <option hidden="">-- Select Option --</option>
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+          </select>
+          <br />
+          <input type="submit" />
+        </form>
+      </div>
+
+      <aside id="rules">
+        <h1><u>Rules</u></h1>
+        <h3>
+          First, you must choose one of the three options: Rock, Paper, or
+          Scissors
+        </h3>
+        <h3>Then, the wins are determined based on the following:</h3>
+        <ul>
+          <li>Rock beats Scissors</li>
+          <li>Scissors beats Paper</li>
+          <li>Paper beats Rock</li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer id="bar">
+      <p>This is the footer. You can just ignore this</p>
+    </footer>
+  </body>
+</html>
